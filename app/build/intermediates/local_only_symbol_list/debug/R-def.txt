@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id answer_a
+id answer_b
+id answer_c
+id answer_choices
+id answer_d
+id easy_mode_button
+id hard_mode_button
+id question
+id submit_button
+id textView
+layout activity_main
+layout question_layout
+layout right_answer_layout
+layout wrong_answer_layout
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string easy_mode
+string hard_mode
+style Theme.Lab3
+xml backup_rules
+xml data_extraction_rules

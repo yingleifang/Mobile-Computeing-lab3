@@ -9,9 +9,14 @@
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="177dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="88dp" />
+        app:layout_constraintBottom_toTopOf="@+id/answer_choices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/answer_choices"
