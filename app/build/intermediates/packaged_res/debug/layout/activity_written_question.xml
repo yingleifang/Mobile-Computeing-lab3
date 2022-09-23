@@ -7,7 +7,7 @@
     tools:context=".WrittenQuestionActivity">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/questionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="177dp"

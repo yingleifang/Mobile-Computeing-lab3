@@ -32,6 +32,10 @@
         "source": "com.example.lab3.app-main-30:/layout/activity_main.xml"
     },
     {
+        "merged": "com.example.lab3.app-merged_res-28:/layout_vertical_question_list.xml.flat",
+        "source": "com.example.lab3.app-main-30:/layout/vertical_question_list.xml"
+    },
+    {
         "merged": "com.example.lab3.app-merged_res-28:/layout_wrong_answer_layout.xml.flat",
         "source": "com.example.lab3.app-main-30:/layout/wrong_answer_layout.xml"
     },
@@ -86,9 +90,5 @@
     {
         "merged": "com.example.lab3.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "com.example.lab3.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.lab3.app-merged_res-28:/layout_question_layout.xml.flat",
-        "source": "com.example.lab3.app-main-30:/layout/question_layout.xml"
     }
 ]

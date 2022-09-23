@@ -17,7 +17,7 @@
             android:name=".WrittenQuestionActivity"
             android:exported="false" />
         <activity
-            android:name=".MultipleChoiceQuestionActivity"
+            android:name=".VerticalListActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

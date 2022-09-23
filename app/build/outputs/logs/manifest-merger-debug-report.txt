@@ -111,12 +111,12 @@ ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\ap
 		ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
 		ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:17:13-52
-activity#com.example.lab3.MultipleChoiceQuestionActivity
+activity#com.example.lab3.VerticalListActivity
 ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:20:13-59
+		ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:20:13-49
 activity#com.example.lab3.MainActivity
 ADDED from C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:22:9-34:20
 	android:exported

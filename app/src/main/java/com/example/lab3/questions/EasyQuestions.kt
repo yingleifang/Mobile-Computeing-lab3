@@ -1,7 +1,5 @@
 package com.example.lab3.questions
 
-import com.example.lab3.questions.Questions
-
 object EasyQuestions {
 
     val questions : List<Questions> = listOf(
@@ -12,7 +10,7 @@ object EasyQuestions {
         ),
         Questions(
             "14*3",
-            "42",
+            "1",
             arrayOf("28", "42", "52", "56")
         ),
         Questions(
@@ -22,7 +20,7 @@ object EasyQuestions {
         ),
         Questions(
             "18/2",
-            "9",
+            "3",
             arrayOf("6", "4", "3", "9")
         ),
         Questions(
@@ -32,7 +30,7 @@ object EasyQuestions {
         ),
         Questions(
             "3+28",
-            "31",
+            "0",
             arrayOf("31", "32", "33", "30")
         ),
         Questions(
@@ -42,7 +40,7 @@ object EasyQuestions {
         ),
         Questions(
             "64/8",
-            "8",
+            "2",
             arrayOf("16", "4", "8", "32")
         ),
         Questions(
@@ -52,7 +50,7 @@ object EasyQuestions {
         ),
         Questions(
             "6+6+6+6/2",
-            "21",
+            "1",
             arrayOf("12", "21", "24", "18")
         ),
     )

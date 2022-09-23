@@ -21,6 +21,9 @@ public abstract class ActivityMultipleChoiceQuestionBinding extends ViewDataBind
   public final Button button;
 
   @NonNull
+  public final TextView questionText;
+
+  @NonNull
   public final RadioButton radioButton2;
 
   @NonNull
@@ -35,21 +38,18 @@ public abstract class ActivityMultipleChoiceQuestionBinding extends ViewDataBind
   @NonNull
   public final RadioGroup radioGroup;
 
-  @NonNull
-  public final TextView textView2;
-
   protected ActivityMultipleChoiceQuestionBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, Button button, RadioButton radioButton2, RadioButton radioButton3,
-      RadioButton radioButton4, RadioButton radioButton5, RadioGroup radioGroup,
-      TextView textView2) {
+      int _localFieldCount, Button button, TextView questionText, RadioButton radioButton2,
+      RadioButton radioButton3, RadioButton radioButton4, RadioButton radioButton5,
+      RadioGroup radioGroup) {
     super(_bindingComponent, _root, _localFieldCount);
     this.button = button;
+    this.questionText = questionText;
     this.radioButton2 = radioButton2;
     this.radioButton3 = radioButton3;
     this.radioButton4 = radioButton4;
     this.radioButton5 = radioButton5;
     this.radioGroup = radioGroup;
-    this.textView2 = textView2;
   }
 
   @NonNull

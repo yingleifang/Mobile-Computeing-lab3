@@ -14,7 +14,7 @@ public class ActivityMultipleChoiceQuestionBindingImpl extends ActivityMultipleC
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.textView2, 1);
+        sViewsWithIds.put(R.id.questionText, 1);
         sViewsWithIds.put(R.id.radioGroup, 2);
         sViewsWithIds.put(R.id.radioButton5, 3);
         sViewsWithIds.put(R.id.radioButton4, 4);
@@ -36,12 +36,12 @@ public class ActivityMultipleChoiceQuestionBindingImpl extends ActivityMultipleC
     private ActivityMultipleChoiceQuestionBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[7]
+            , (android.widget.TextView) bindings[1]
             , (android.widget.RadioButton) bindings[6]
             , (android.widget.RadioButton) bindings[5]
             , (android.widget.RadioButton) bindings[4]
             , (android.widget.RadioButton) bindings[3]
             , (android.widget.RadioGroup) bindings[2]
-            , (android.widget.TextView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

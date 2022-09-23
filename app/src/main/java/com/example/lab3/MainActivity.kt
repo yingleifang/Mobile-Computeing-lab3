@@ -4,11 +4,16 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.lab3.databinding.ActivityMainBinding
-
+import com.example.lab3.questions.EasyQuestions
+import com.example.lab3.questions.HarderQuestions
+import com.example.lab3.questions.Questions
+import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-
+    companion object {
+        var curQuestions: List<Questions> = EasyQuestions.questions
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -20,10 +25,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchEasy() {
-        startActivity(Intent(this@MainActivity, MultipleChoiceQuestionActivity::class.java))
+        setUpDisplay()
     }
 
     private fun launchHard() {
-        startActivity(Intent(this@MainActivity, MultipleChoiceQuestionActivity::class.java))
+        curQuestions= HarderQuestions.questions
+        setUpDisplay()
+    }
+
+    private fun setUpDisplay(){
+        var index = Random.nextInt(0, curQuestions.size)
+        if (curQuestions[index].is_mc()){
+            startActivity(Intent(this@MainActivity, VerticalListActivity::class.java))
+        }else{
+            startActivity(Intent(this@MainActivity, WrittenQuestionActivity ::class.java))
+        }
     }
 }

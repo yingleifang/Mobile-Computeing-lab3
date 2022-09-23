@@ -1,7 +1,5 @@
 package com.example.lab3.questions
 
-import com.example.lab3.questions.Questions
-
 
 object HarderQuestions {
 
@@ -13,7 +11,7 @@ object HarderQuestions {
         ),
         Questions(
             "(810-81*10)/801)",
-            "0",
+            "2",
             arrayOf("1", "10", "0", "8")
         ),
         Questions(
@@ -23,7 +21,7 @@ object HarderQuestions {
         ),
         Questions(
             "11*11-2",
-            "119",
+            "1",
             arrayOf("121", "119", "130", "142")
         ),
         Questions(
@@ -33,7 +31,7 @@ object HarderQuestions {
         ),
         Questions(
             "9*9-8*8+3*3-1",
-            "25",
+            "0",
             arrayOf("25", "17", "16", "34")
         ),
         Questions(
@@ -43,7 +41,7 @@ object HarderQuestions {
         ),
         Questions(
             "2^7",
-            "128",
+            "2",
             arrayOf("32", "64", "128", "256")
         ),
         Questions(
@@ -53,7 +51,7 @@ object HarderQuestions {
         ),
         Questions(
             "(8/4)*(10/5)*(24/6)",
-            "16",
+            "1",
             arrayOf("8", "16", "32", "64")
         ),
     )

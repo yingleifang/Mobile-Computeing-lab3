@@ -2584,11 +2584,6 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
-id answer_a
-id answer_b
-id answer_c
-id answer_choices
-id answer_d
 id answer_field
 id antiClockwise
 id anticipate
@@ -2854,6 +2849,7 @@ id postLayout
 id progress_circular
 id progress_horizontal
 id question
+id questionText
 id radio
 id radioButton2
 id radioButton3
@@ -2990,6 +2986,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id vertical_recycler_view
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3162,7 +3159,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout question_layout
 layout question_layout_fill_in_blanks
 layout right_answer_layout
 layout select_dialog_item_material
@@ -3184,6 +3180,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout vertical_question_list
 layout wrong_answer_layout
 menu example_menu
 menu example_menu2

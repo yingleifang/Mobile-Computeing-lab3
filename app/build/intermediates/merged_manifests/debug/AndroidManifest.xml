@@ -24,7 +24,7 @@
             android:name="com.example.lab3.WrittenQuestionActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lab3.MultipleChoiceQuestionActivity"
+            android:name="com.example.lab3.VerticalListActivity"
             android:exported="false" />
         <activity
             android:name="com.example.lab3.MainActivity"

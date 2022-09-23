@@ -40,8 +40,8 @@
 25-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:18:13-37
 26        <activity
 26-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:19:9-21:40
-27            android:name="com.example.lab3.MultipleChoiceQuestionActivity"
-27-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:20:13-59
+27            android:name="com.example.lab3.VerticalListActivity"
+27-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:20:13-49
 28            android:exported="false" />
 28-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:21:13-37
 29        <activity

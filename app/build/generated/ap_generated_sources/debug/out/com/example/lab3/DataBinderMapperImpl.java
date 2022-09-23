@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.lab3.databinding.ActivityMainBindingImpl;
 import com.example.lab3.databinding.ActivityMultipleChoiceQuestionBindingImpl;
+import com.example.lab3.databinding.VerticalQuestionListBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -23,11 +24,14 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ACTIVITYMULTIPLECHOICEQUESTION = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_VERTICALQUESTIONLIST = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.lab3.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.lab3.R.layout.activity_multiple_choice_question, LAYOUT_ACTIVITYMULTIPLECHOICEQUESTION);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.lab3.R.layout.vertical_question_list, LAYOUT_VERTICALQUESTIONLIST);
   }
 
   @Override
@@ -50,6 +54,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMultipleChoiceQuestionBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_multiple_choice_question is invalid. Received: " + tag);
+        }
+        case  LAYOUT_VERTICALQUESTIONLIST: {
+          if ("layout/vertical_question_list_0".equals(tag)) {
+            return new VerticalQuestionListBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for vertical_question_list is invalid. Received: " + tag);
         }
       }
     }
@@ -104,11 +114,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/activity_main_0", com.example.lab3.R.layout.activity_main);
       sKeys.put("layout/activity_multiple_choice_question_0", com.example.lab3.R.layout.activity_multiple_choice_question);
+      sKeys.put("layout/vertical_question_list_0", com.example.lab3.R.layout.vertical_question_list);
     }
   }
 }
