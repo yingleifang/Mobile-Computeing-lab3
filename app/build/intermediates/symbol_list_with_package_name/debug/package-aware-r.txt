@@ -2589,6 +2589,7 @@ id answer_b
 id answer_c
 id answer_choices
 id answer_d
+id answer_field
 id antiClockwise
 id anticipate
 id arc
@@ -2609,6 +2610,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2645,11 +2647,13 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
+id cost_of_service_edit_text
 id counterclockwise
 id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2684,6 +2688,7 @@ id easeInOut
 id easeOut
 id east
 id easy_mode_button
+id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2826,6 +2831,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id outline
 id outward
@@ -2848,6 +2855,11 @@ id progress_circular
 id progress_horizontal
 id question
 id radio
+id radioButton2
+id radioButton3
+id radioButton4
+id radioButton5
+id radioGroup
 id ratio
 id rectangles
 id reverseSawtooth
@@ -2945,6 +2957,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3078,6 +3092,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_multiple_choice_question
+layout activity_written_question
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3147,6 +3163,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout question_layout
+layout question_layout_fill_in_blanks
 layout right_answer_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -3208,6 +3225,7 @@ string bottomsheet_action_expand_halfway
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string check
 string chip_text
 string clear_text_end_icon_content_description
 string easy_mode
@@ -3307,6 +3325,9 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string submit
+string textview
+string type_the_answer_here
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.lab3.app-mergeDebugResources-24:/values-mk/values-mk.xml",
+            "outputFile": "com.example.lab3.app-mergeDebugResources-26:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Yinglei Fang\\.gradle\\caches\\transforms-3\\d45adee55900f4861c172a3adde433ea\\transformed\\appcompat-1.4.1\\res\\values-mk\\values-mk.xml",

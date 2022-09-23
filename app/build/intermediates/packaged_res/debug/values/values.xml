@@ -8,8 +8,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Lab 3</string>
+    <string name="check">Check</string>
     <string name="easy_mode">Easy Mode</string>
     <string name="hard_mode">Hard Mode</string>
+    <string name="submit">Submit</string>
+    <string name="textview">TextView</string>
+    <string name="type_the_answer_here">Type the Answer here</string>
     <style name="Theme.Lab3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
