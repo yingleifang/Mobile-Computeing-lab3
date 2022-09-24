@@ -29,90 +29,91 @@
 19-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:13:9-35
-21        android:theme="@style/Theme.Lab3" >
-21-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:14:9-42
-22        <activity
-22-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:16:9-18:40
-23            android:name="com.example.lab3.IncorrectAnswerActivity"
-23-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:17:13-52
-24            android:exported="false" />
-24-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:18:13-37
-25        <activity
-25-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:19:9-21:40
-26            android:name="com.example.lab3.CorrectAnswerActivity"
-26-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:20:13-50
-27            android:exported="false" />
-27-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:21:13-37
-28        <activity
-28-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:22:9-24:40
-29            android:name="com.example.lab3.WrongAnswerActivity"
-29-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:23:13-48
-30            android:exported="false" />
-30-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:24:13-37
-31        <activity
-31-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:25:9-27:40
-32            android:name="com.example.lab3.RightAnswerActivity"
-32-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:26:13-48
-33            android:exported="false" />
-33-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:27:13-37
-34        <activity
-34-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:28:9-30:40
-35            android:name="com.example.lab3.WrittenQuestionActivity"
-35-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:29:13-52
-36            android:exported="false" />
-36-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:30:13-37
-37        <activity
-37-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:31:9-33:40
-38            android:name="com.example.lab3.VerticalListActivity"
-38-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:32:13-49
-39            android:exported="false" />
-39-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:33:13-37
-40        <activity
-40-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:34:9-46:20
-41            android:name="com.example.lab3.MainActivity"
-41-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:35:13-41
-42            android:exported="true" >
-42-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:36:13-36
-43            <intent-filter>
-43-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:37:13-41:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:38:17-69
-44-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:38:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:40:17-77
-46-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:40:27-74
-47            </intent-filter>
-48
-49            <meta-data
-49-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:43:13-45:36
-50                android:name="android.app.lib_name"
-50-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:44:17-52
-51                android:value="" />
-51-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:45:17-33
-52        </activity>
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-56            android:authorities="com.example.lab3.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\d6520fd2f583bc6f61d0968a3ccc85ac\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\d6520fd2f583bc6f61d0968a3ccc85ac\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\d6520fd2f583bc6f61d0968a3ccc85ac\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Lab3" >
+22-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:14:9-42
+23        <activity
+23-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:16:9-18:40
+24            android:name="com.example.lab3.IncorrectAnswerActivity"
+24-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:17:13-52
+25            android:exported="false" />
+25-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:19:9-21:40
+27            android:name="com.example.lab3.CorrectAnswerActivity"
+27-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:20:13-50
+28            android:exported="false" />
+28-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:21:13-37
+29        <activity
+29-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:22:9-24:40
+30            android:name="com.example.lab3.WrongAnswerActivity"
+30-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:23:13-48
+31            android:exported="false" />
+31-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:24:13-37
+32        <activity
+32-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:25:9-27:40
+33            android:name="com.example.lab3.RightAnswerActivity"
+33-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:26:13-48
+34            android:exported="false" />
+34-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:27:13-37
+35        <activity
+35-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:28:9-30:40
+36            android:name="com.example.lab3.WrittenQuestionActivity"
+36-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:29:13-52
+37            android:exported="false" />
+37-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:30:13-37
+38        <activity
+38-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:31:9-33:40
+39            android:name="com.example.lab3.VerticalListActivity"
+39-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:32:13-49
+40            android:exported="false" />
+40-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:33:13-37
+41        <activity
+41-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:34:9-46:20
+42            android:name="com.example.lab3.MainActivity"
+42-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:35:13-41
+43            android:exported="true" >
+43-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:36:13-36
+44            <intent-filter>
+44-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:37:13-41:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:38:17-69
+45-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:38:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:40:17-77
+47-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:40:27-74
+48            </intent-filter>
+49
+50            <meta-data
+50-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:43:13-45:36
+51                android:name="android.app.lib_name"
+51-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:44:17-52
+52                android:value="" />
+52-->C:\Users\Yinglei Fang\AndroidStudioProjects\Mobile-Computeing-lab3\app\src\main\AndroidManifest.xml:45:17-33
+53        </activity>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+57            android:authorities="com.example.lab3.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\6609eb71530726beb844696b4c172ec2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\d6520fd2f583bc6f61d0968a3ccc85ac\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\d6520fd2f583bc6f61d0968a3ccc85ac\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Yinglei Fang\.gradle\caches\transforms-3\d6520fd2f583bc6f61d0968a3ccc85ac\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

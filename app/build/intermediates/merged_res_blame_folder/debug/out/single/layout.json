@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.lab3.app-mergeDebugResources-27:/layout/activity_main.xml",
+        "source": "com.example.lab3.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.lab3.app-mergeDebugResources-27:/layout/activity_multiple_choice_question.xml",
+        "source": "com.example.lab3.app-main-30:/layout/activity_multiple_choice_question.xml"
+    },
+    {
+        "merged": "com.example.lab3.app-mergeDebugResources-27:/layout/vertical_question_list.xml",
+        "source": "com.example.lab3.app-main-30:/layout/vertical_question_list.xml"
+    }
+]

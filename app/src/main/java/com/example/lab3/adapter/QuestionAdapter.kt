@@ -29,6 +29,7 @@ class QuestiondAdapter(
      * Initialize view elements
      */
     class MultipleChoiceViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
+        val curView: View? = view
         val question: TextView = view!!.findViewById(R.id.questionText)
         val choice1: RadioButton = view!!.findViewById(R.id.radioButton2)
         val choice2: RadioButton = view!!.findViewById(R.id.radioButton3)
@@ -37,7 +38,7 @@ class QuestiondAdapter(
 
         private val submitButton: Button = view!!.findViewById(R.id.submit_button)
 
-        fun updateEvent(answer: String, context: Context?){
+        fun updateEvent(answer: String, view: View?){
             submitButton.setOnClickListener {
                 val curChoice = when{
                     choice1.isChecked ->0
@@ -49,10 +50,9 @@ class QuestiondAdapter(
                 Log.d("", curChoice.toString())
                 Log.d("", answer)
                 if (curChoice == answer.toInt()){
-                    context?.startActivity(Intent(context, RightAnswerActivity::class.java));
-
+                    view!!.getContext().startActivity(Intent(view.getContext(), RightAnswerActivity::class.java));
                 }else{
-                    context?.startActivity(Intent(context, WrongAnswerActivity::class.java));
+                    view!!.getContext().startActivity(Intent(view.getContext(), WrongAnswerActivity::class.java));
                 }
             }
         }
@@ -108,7 +108,7 @@ class QuestiondAdapter(
             holder.choice2.text = question.get_answer_choices()[1]
             holder.choice3.text = question.get_answer_choices()[2]
             holder.choice4.text = question.get_answer_choices()[3]
-            holder.updateEvent(question.get_answer(), context)
+            holder.updateEvent(question.get_answer(), holder.curView)
         }else if (holder is WrittenQuestionViewHolder){
             holder.question.text = question.get_question()
             holder.updateEvent(question.get_answer(), context)
