@@ -7,8 +7,13 @@
     <string name="check">Check</string>
     <string name='submit'>Submit</string>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <string name='correct_answer'>Congrats! Your answer is correct!</string>
     <string name='wrong_answer'>Sorry! You are wrong!</string>
+=======
+    <string name='correct_answer'>Congrats! You are right!</string>
+    <string name="wrong_answer">Boohoo. You are wrong!</string>
+>>>>>>> Stashed changes
 =======
     <string name='correct_answer'>Congrats! You are right!</string>
     <string name="wrong_answer">Boohoo. You are wrong!</string>
