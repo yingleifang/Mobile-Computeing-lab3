@@ -7,7 +7,6 @@ import com.example.lab3.databinding.ActivityMainBinding
 import com.example.lab3.questions.EasyQuestions
 import com.example.lab3.questions.HarderQuestions
 import com.example.lab3.questions.Questions
-import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -34,11 +33,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpDisplay(){
-        var index = Random.nextInt(0, curQuestions.size)
-        if (curQuestions[index].is_mc()){
-            startActivity(Intent(this@MainActivity, VerticalListActivity::class.java))
-        }else{
-            startActivity(Intent(this@MainActivity, WrittenQuestionActivity ::class.java))
-        }
+        startActivity(Intent(this@MainActivity, VerticalListActivity::class.java))
     }
 }

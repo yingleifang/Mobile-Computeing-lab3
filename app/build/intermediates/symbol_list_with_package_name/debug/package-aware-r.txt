@@ -2584,6 +2584,7 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id answerInput
 id answer_field
 id antiClockwise
 id anticipate
@@ -2605,7 +2606,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2683,7 +2683,6 @@ id easeInOut
 id easeOut
 id east
 id easy_mode_button
-id editTextTextPersonName
 id edit_query
 id elastic
 id end
@@ -2953,7 +2952,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon

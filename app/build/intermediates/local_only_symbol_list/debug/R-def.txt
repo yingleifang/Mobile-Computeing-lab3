@@ -9,11 +9,10 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id answerInput
 id answer_field
-id button
 id cost_of_service_edit_text
 id easy_mode_button
-id editTextTextPersonName
 id hard_mode_button
 id question
 id questionText
@@ -24,7 +23,6 @@ id radioButton5
 id radioGroup
 id submit_button
 id textView
-id textView2
 id vertical_recycler_view
 layout activity_main
 layout activity_multiple_choice_question

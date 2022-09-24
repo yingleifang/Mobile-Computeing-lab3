@@ -22,7 +22,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/answerInput"
         android:layout_width="306dp"
         android:layout_height="100dp"
         android:layout_marginStart="52dp"
@@ -41,7 +41,7 @@
         android:hint="@string/type_the_answer_here"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/questionText"
         tools:text="Answer Goes Here"
         android:autofillHints="" />
 

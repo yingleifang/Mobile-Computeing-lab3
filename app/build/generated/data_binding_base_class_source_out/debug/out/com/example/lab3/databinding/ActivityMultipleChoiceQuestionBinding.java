@@ -18,9 +18,6 @@ import java.lang.Object;
 
 public abstract class ActivityMultipleChoiceQuestionBinding extends ViewDataBinding {
   @NonNull
-  public final Button button;
-
-  @NonNull
   public final TextView questionText;
 
   @NonNull
@@ -38,18 +35,21 @@ public abstract class ActivityMultipleChoiceQuestionBinding extends ViewDataBind
   @NonNull
   public final RadioGroup radioGroup;
 
+  @NonNull
+  public final Button submitButton;
+
   protected ActivityMultipleChoiceQuestionBinding(Object _bindingComponent, View _root,
-      int _localFieldCount, Button button, TextView questionText, RadioButton radioButton2,
+      int _localFieldCount, TextView questionText, RadioButton radioButton2,
       RadioButton radioButton3, RadioButton radioButton4, RadioButton radioButton5,
-      RadioGroup radioGroup) {
+      RadioGroup radioGroup, Button submitButton) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.button = button;
     this.questionText = questionText;
     this.radioButton2 = radioButton2;
     this.radioButton3 = radioButton3;
     this.radioButton4 = radioButton4;
     this.radioButton5 = radioButton5;
     this.radioGroup = radioGroup;
+    this.submitButton = submitButton;
   }
 
   @NonNull

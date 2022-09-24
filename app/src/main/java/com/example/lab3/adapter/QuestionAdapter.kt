@@ -1,9 +1,13 @@
 package com.example.lab3.adapter
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.EditText
+import android.widget.RadioButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lab3.MainActivity.Companion.curQuestions
@@ -22,15 +26,54 @@ class QuestiondAdapter(
      */
     class MultipleChoiceViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
         val question: TextView = view!!.findViewById(R.id.questionText)
-        val choice1: TextView = view!!.findViewById(R.id.radioButton2)
-        val choice2: TextView = view!!.findViewById(R.id.radioButton3)
-        val choice3: TextView = view!!.findViewById(R.id.radioButton4)
-        val choice4: TextView = view!!.findViewById(R.id.radioButton5)
+        val choice1: RadioButton = view!!.findViewById(R.id.radioButton2)
+        val choice2: RadioButton = view!!.findViewById(R.id.radioButton3)
+        val choice3: RadioButton = view!!.findViewById(R.id.radioButton4)
+        val choice4: RadioButton = view!!.findViewById(R.id.radioButton5)
 
+        private val submitButton: Button = view!!.findViewById(R.id.submit_button)
+
+        fun updateEvent(answer: String){
+            submitButton.setOnClickListener {
+                val curChoice = when{
+                    choice1.isChecked ->0
+                    choice2.isChecked ->1
+                    choice3.isChecked ->2
+                    else ->3
+
+                }
+                Log.d("", curChoice.toString())
+                Log.d("", answer)
+                if (curChoice == answer.toInt()){
+                    // TODO: Load the correct answer activity
+                    Log.d("", "Correct!!!!!!!!!!!!!!!!!!!!!")
+
+                }else{
+                    // TODO: failure
+                    Log.d("", "Wrong!!!!!!!!!!!!!!!!!!!!!")
+                }
+            }
+        }
     }
 
     class WrittenQuestionViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
+
+        private val submitButton: Button = view!!.findViewById(R.id.submit_button)
         val question: TextView = view!!.findViewById(R.id.questionText)
+        val curChoice: EditText = view!!.findViewById(R.id.answerInput)
+
+        fun updateEvent(answer: String){
+            submitButton.setOnClickListener {
+                if (curChoice.text.toString() == answer){
+                    // TODO: Load the correct answer activity
+                    Log.d("", "Correct!!!!!!!!!!!!!!!!!!!!!")
+
+                }else{
+                    // TODO: failure
+                    Log.d("", "Wrong!!!!!!!!!!!!!!!!!!!!!")
+                }
+            }
+        }
     }
 
 
@@ -40,6 +83,7 @@ class QuestiondAdapter(
         }else {
             1
         }
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
@@ -64,8 +108,10 @@ class QuestiondAdapter(
             holder.choice2.text = question.get_answer_choices()[1]
             holder.choice3.text = question.get_answer_choices()[2]
             holder.choice4.text = question.get_answer_choices()[3]
+            holder.updateEvent(question.get_answer())
         }else if (holder is WrittenQuestionViewHolder){
             holder.question.text = question.get_question()
+            holder.updateEvent(question.get_answer())
         }
 
 
