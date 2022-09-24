@@ -1,6 +1,7 @@
 package com.example.lab3.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -12,6 +13,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lab3.MainActivity.Companion.curQuestions
 import com.example.lab3.R
+import com.example.lab3.RightAnswerActivity
+import com.example.lab3.WrongAnswerActivity
+
 
 /**
  * Adapter to inflate the appropriate list item layout and populate the view with information
@@ -33,7 +37,7 @@ class QuestiondAdapter(
 
         private val submitButton: Button = view!!.findViewById(R.id.submit_button)
 
-        fun updateEvent(answer: String){
+        fun updateEvent(answer: String, context: Context?){
             submitButton.setOnClickListener {
                 val curChoice = when{
                     choice1.isChecked ->0
@@ -45,12 +49,10 @@ class QuestiondAdapter(
                 Log.d("", curChoice.toString())
                 Log.d("", answer)
                 if (curChoice == answer.toInt()){
-                    // TODO: Load the correct answer activity
-                    Log.d("", "Correct!!!!!!!!!!!!!!!!!!!!!")
+                    context?.startActivity(Intent(context, RightAnswerActivity::class.java));
 
                 }else{
-                    // TODO: failure
-                    Log.d("", "Wrong!!!!!!!!!!!!!!!!!!!!!")
+                    context?.startActivity(Intent(context, WrongAnswerActivity::class.java));
                 }
             }
         }
@@ -62,15 +64,13 @@ class QuestiondAdapter(
         val question: TextView = view!!.findViewById(R.id.questionText)
         val curChoice: EditText = view!!.findViewById(R.id.answerInput)
 
-        fun updateEvent(answer: String){
+        fun updateEvent(answer: String, context: Context?){
             submitButton.setOnClickListener {
                 if (curChoice.text.toString() == answer){
-                    // TODO: Load the correct answer activity
-                    Log.d("", "Correct!!!!!!!!!!!!!!!!!!!!!")
+                    context?.startActivity(Intent(context, RightAnswerActivity::class.java));
 
                 }else{
-                    // TODO: failure
-                    Log.d("", "Wrong!!!!!!!!!!!!!!!!!!!!!")
+                    context?.startActivity(Intent(context, WrongAnswerActivity::class.java));
                 }
             }
         }
@@ -108,10 +108,10 @@ class QuestiondAdapter(
             holder.choice2.text = question.get_answer_choices()[1]
             holder.choice3.text = question.get_answer_choices()[2]
             holder.choice4.text = question.get_answer_choices()[3]
-            holder.updateEvent(question.get_answer())
+            holder.updateEvent(question.get_answer(), context)
         }else if (holder is WrittenQuestionViewHolder){
             holder.question.text = question.get_question()
-            holder.updateEvent(question.get_answer())
+            holder.updateEvent(question.get_answer(), context)
         }
 
 
