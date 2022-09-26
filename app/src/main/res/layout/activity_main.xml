@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Horn Academy"
+        android:text="@string/horn_academy"
         android:textColor="@color/dark_orange"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
